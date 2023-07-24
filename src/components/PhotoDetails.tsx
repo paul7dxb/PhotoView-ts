@@ -20,7 +20,7 @@ export function PhotoDetails({imgSrc}:PhotoDetailsProps){
         )
     } else {
         content = (
-            <p>Select an image to view information about it</p>
+            <h2>Select an image to view information about it</h2>
         )
     }
 

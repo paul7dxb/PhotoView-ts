@@ -1,0 +1,16 @@
+.photo-gallery{
+
+    position: fixed;
+    bottom: var(--marginMedium);
+    left: 0;
+    right: 0;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    overflow-x: scroll;
+
+    padding-bottom: var(--paddingMedium);
+
+    
+}

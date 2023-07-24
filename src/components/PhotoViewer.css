@@ -4,16 +4,19 @@
 	box-sizing: border-box; /* Opera/IE 8+ */
 
 	object-fit: cover;
-	width: 90vw;
+	width: 75vw;
 	border: 3px solid white;
 	border-radius: 10%;
+
+	max-height: 30vh;
+	padding-bottom: var(--paddingMedium);
 }
 
 .picture:hover {
 	border: 5px solid rgb(255, 244, 30);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 480px) {
 	.picture {
 		width: 200px;
 		height: 300px;

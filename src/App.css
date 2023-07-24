@@ -1,33 +1,17 @@
 #root {
 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 0rem;
+	padding: 1rem;
 	text-align: center;
 
-	--marginSmall: 0.3rem;
+	scrollbar-width: auto;
+
 }
 
-.logo {
-	height: 6em;
-	padding: 1.5em;
-	will-change: filter;
-	transition: filter 300ms;
-}
-.logo:hover {
-	filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-	filter: drop-shadow(0 0 2em #61dafbaa);
+h1{
+	margin-top: 0px;
 }
 
-@keyframes logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
-}
 
 @media (prefers-reduced-motion: no-preference) {
 	a:nth-of-type(2) .logo {
@@ -35,26 +19,4 @@
 	}
 }
 
-.card {
-	padding: 2em;
-}
 
-.read-the-docs {
-	color: #888;
-}
-
-@media only screen and (min-width: 768px) {
-	#root {
-		padding: 2rem;
-		--marginSmall: 0.25rem;
-		margin: 0 auto;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	#root {
-		padding: 2rem;
-
-		--marginSmall: 0.5rem;
-	}
-}
