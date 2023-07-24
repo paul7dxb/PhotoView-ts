@@ -1,17 +1,24 @@
 // import React from 'react'
-import './PhotoViewer.css'
+import "./PhotoViewer.css";
 
 interface PhotoViewerProps {
-    imgSrc?: string;
-    onclickHandler: (url: string) => void;
+	imgSrc?: string;
+	onClickHandler: (url: string) => void;
 }
 
-export function PhotoViewer({imgSrc, onclickHandler}:PhotoViewerProps){
-
-    return (
-        <>
-            {imgSrc ? <img onClick={() => onclickHandler(imgSrc)} className='picture' src={imgSrc} alt="An image from Lorem Picsum" /> : <p>No Image source</p> } 
-        </>
-    )
-
+export function PhotoViewer({ imgSrc, onClickHandler }: PhotoViewerProps) {
+	return (
+		<>
+			{imgSrc ? (
+				<img
+					onClick={() => onClickHandler(imgSrc)}
+					className="picture"
+					src={imgSrc}
+					alt="An image from Lorem Picsum"
+				/>
+			) : (
+				<p>No Image source</p>
+			)}
+		</>
+	);
 }

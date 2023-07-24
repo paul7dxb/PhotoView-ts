@@ -1,10 +1,10 @@
-export interface Image {
+export interface ImageInfo {
 	id: string;
 	imgUrl: string;
 }
 
 export function createImageUrls() {
-	const images: Image[] = [];
+	const images: ImageInfo[] = [];
 	for (let i = 0; i < 50; i++) {
 		images.push({
 			id: `img${i}`,
