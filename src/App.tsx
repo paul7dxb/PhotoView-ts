@@ -2,9 +2,9 @@
 import {useState} from 'react'
 
 import './App.css'
-import { PhotoDetails } from './components/PhotoDetails'
+import { PhotoDetails } from './components/PhotoDetails/PhotoDetails'
 import { createImageUrls } from './util/imageFunctions'
-import { PhotoGallery } from './components/PhotoGallery'
+import { PhotoGallery } from './components/PhotoGallery/PhotoGallery'
 
 
 const images = createImageUrls()

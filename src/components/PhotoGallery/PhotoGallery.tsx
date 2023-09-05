@@ -1,5 +1,5 @@
-import { ImageInfo } from "../util/imageFunctions";
-import { PhotoViewer } from "./PhotoViewer";
+import { ImageInfo } from "../../util/imageFunctions";
+import { PhotoViewer } from "../PhotoViewer/PhotoViewer";
 import "./PhotoGallery.css"
 
 interface GalleryProps {

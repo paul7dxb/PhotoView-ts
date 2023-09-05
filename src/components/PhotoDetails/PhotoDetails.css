@@ -1,0 +1,13 @@
+.image-details-text{
+    font-size: 1.3rem;
+}
+.selected-image{
+    max-width: 90vw;
+    max-height: 30vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .image-details-text{
+        font-size: 1rem;
+    }
+}
